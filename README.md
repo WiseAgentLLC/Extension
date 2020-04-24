@@ -1,4 +1,4 @@
-### Setup
+# Setup
 1. Clone Repo
 2. Open Chrome and go to `chrome://extensions/`
 3. Optional - If you have the real extension installed, disable it to avoid confusion
@@ -8,7 +8,7 @@
 7. Find the ID of the unpacked extension and copy
 8. Paste the ID over the value of the `extensionId` variable in `addViewCtrl.js`
 
-### Going live
+# Going live
 1. Paste the original ID of the official Chrome Extension for the `extensionId` value of the `extensionId` variable in `addViewCtrl.js`
     >elpiekaehikfeikdafacpofkjenfipke
 2. Update the version number in `manifest.json`
@@ -18,7 +18,7 @@
 5. Once it is live, test the real extension.
    (Make sure you enable the real extension again)
 
-### Code Base
+# Code Base
 
 ### Background code
 ##### Manifest.json
