@@ -4,7 +4,7 @@
 3. Optional - If you have the real extension installed, disable it to avoid confusion
 4. Turn on Development Mode
 5. Click "Load unpacked"
-6. Navigate to Repo and select
+6. Navigate to Repo and select the `/Chrome` folder
 7. Find the ID of the unpacked extension and copy
 8. Paste the ID over the value of the `extensionId` variable in `addViewCtrl.js`
 
@@ -12,7 +12,7 @@
 1. Paste the original ID of the official Chrome Extension for the `extensionId` value of the `extensionId` variable in `addViewCtrl.js`
     >elpiekaehikfeikdafacpofkjenfipke
 2. Update the version number in `manifest.json`
-3. Zip the repo and send to Eleni
+3. Zip the `/Chrome` folder and send to Eleni
 4. Once it passes google's review, it will automatically update in the next day or two
    To check if your version had updated, open `chrome://extensions/` and check if the version number is the same is was updated in `manifest.json`.
 5. Once it is live, test the real extension.
