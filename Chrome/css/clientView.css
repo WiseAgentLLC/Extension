@@ -1,0 +1,255 @@
+
+.client-row{
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #656D74;
+	padding: 10px;
+}
+.client-row:last-child{
+	border-bottom: none;
+}
+
+.wa-header {
+	background-color: #09408B;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	width: 380px;
+}
+.popup {
+	display: none;
+	width: 415px;
+	background-color: transparent;
+	position: absolute;
+	right: 0px;
+	z-index: 100;
+	overflow: hidden;
+	margin-top: 4px;
+}
+
+.wa-caret {
+	width: 0px;
+	height: 0px;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	border-left: 16px solid #09408B;
+	float: right;
+	margin-top: -40px;
+}
+
+.clients-div {
+	width: 398px;
+	position: fixed;
+	overflow-y: scroll;
+	box-shadow: 0px 15px 30px 5px #888888;
+	border: 1px solid #09408B;
+	background-color: #F1F1F1;
+}
+
+ @media screen and (max-height: 500px) {
+ 	.clients-div {
+ 		max-height: 50%;
+ 	}
+ }
+
+ @media screen and (min-height: 501px) and (max-height: 600px) {
+ 	.clients-div {
+ 		max-height: 60%;
+ 	}
+ }
+
+ @media screen and (min-height: 601px) and (max-height: 800px) {
+ 	.clients-div {
+ 		max-height: 70%;
+ 	}
+ }
+ @media screen and (min-height: 801px) {
+ 	.clients-div {
+ 		max-height: 75%;
+ 	}
+ }
+
+.wise-btn {
+	border-width: 4px;
+	font-size: 13px;
+	padding: 2px 6px;
+	line-height: 1.39;
+	display: inline-block;
+	color: #FFF!important;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.25)!important;
+	background-image: none!important;
+	border: 2px solid #FFF;
+	border-radius: 0;
+	box-shadow: none!important;
+	-webkit-transition: all ease .15s;
+	transition: all ease .15s;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0px 0px 4px 0px;	
+}
+.popup-close {
+	float: right;
+	font-size: 20px;
+	margin-right: 4px;
+}
+.popup-close:hover {
+	cursor: pointer;
+}
+.a-btn {
+	text-decoration: none;
+	margin-top: 6px;
+}
+.clientName {
+	display: inline-block;
+	max-width: calc(100% - 60px);
+	max-height: 19px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.btn-blue {
+	border-color: #428BCA !important;
+	background-color: #428BCA;
+}
+
+.btn-green {
+	border-color: #87B87F !important;
+	background-color: #87B87F
+}
+
+.wise-btn:focus {
+	outline-width: 1px;
+	outline-style: solid;
+	outline-offset: -1px;
+}
+
+.btn-yellow {
+	background-color: #FFB752!important;
+	border-color: #FFB752;
+}
+
+.btn-yellow:focus {
+	outline-color: #E59729!important;
+}
+
+.btn-green:focus {
+	outline-color: #629B58!important
+}
+
+.btnDiv {
+	float: right;
+}
+
+.extra-details {
+	width: 100%;
+	resize: none;
+	height: 50px;
+	margin-top: 6px;
+	margin-bottom: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.formDiv {
+	padding: 10px 10px 10px 10px;
+	height: 408px;
+	border-bottom: 1px solid #656D74;
+	background-color: #FFFFFF;
+}
+
+.form-inputs {
+	width: 100%;
+	margin-top: 10px;
+	height: 30px;
+	display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+.category-select {
+	width: (100% - 50px);
+}
+
+.radioLabel {
+	margin-left: 2px;
+	margin-right: 4px;
+}
+
+.phoneType {
+	padding: 4px;
+}
+
+.apiKeyInput {
+	height: 24px;
+	font-size: 14px;
+	margin: 0px;
+	width: 300px
+}
+
+#clients-div input:focus, #clients-div textarea:focus {
+	outline-width: 1px;
+	outline-style: solid;
+	outline-offset: -1px;
+}
+.loader {
+  border: 5px solid #C4C4C4;
+  border-radius: 50%;
+  border-top: 5px solid #428BCA;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.success {
+	color: #468847;
+	font-size: 0.8em;
+}
+
+.error {
+	color: #b94a48;
+	font-size: 0.8em;
+}
+
+.chosen-container {
+	margin-top: 10px;
+}
+
+.chosen-single {
+		padding: 7px 0 0px 3px !important;
+		font-size: 16px !important;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}

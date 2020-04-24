@@ -1,0 +1,75 @@
+.apiKeyDiv {
+	width: 360px;
+}
+
+.apiKeyForm {
+	display: inline-block;
+}
+
+.btn {
+	border-color: #09408b !important;
+	background-color: #09408b;
+	border-width: 4px;
+	font-size: 13px;
+	padding: 4px 9px;
+	line-height: 1.39;
+	display: inline-block;
+	color: #FFF!important;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.25)!important;
+	background-image: none!important;
+	border: 2px solid #FFF;
+	border-radius: 0;
+	box-shadow: none!important;
+	-webkit-transition: all ease .15s;
+	transition: all ease .15s;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0px 0px 4px 0px;	
+}
+
+.apiKeyInput {
+	height: 24px;
+	font-size: 14px;
+	margin: 0px;
+	width: 300px
+}
+
+#loader {
+  z-index: 1;
+  border: 8px solid #468847;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
