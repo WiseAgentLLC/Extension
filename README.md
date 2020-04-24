@@ -25,12 +25,12 @@
 * Controls chrome settings in extension (Including permissions)
 * See: https://developer.chrome.com/apps/manifest
 
-##### Background.js
+##### `background.js`
 * The part of the extension that has permission to send web requests and access storage.
   * Given in `manifest.json`
 * It acts as a go-between for our server, the extension's storage, and the javascript injected on the page.
 
-##### apiKey.js
+##### `apiKey.js`
 * The popup that opens when you click the extension icon in the browser.
 * Saves apikey in extension's storage
 
@@ -43,7 +43,7 @@
 * Needs jquery
 * See: https://github.com/KartikTalwar/gmail.js/
 
-#### jquery.js
+#### `jquery.js`
 * Required by `gmail.js` library and used by us to build the in-page view.
 
 #### `addContactViewCtrl.js`
